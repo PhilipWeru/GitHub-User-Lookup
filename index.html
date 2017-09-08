@@ -1,0 +1,59 @@
+<head>
+    <meta charset="utf-8">
+    <title>GitHub User Lookup</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <link rel="stylesheet" href="build/css/styles.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+</head>
+<body>
+  <h1 style="text-align:center">Weru's Github User-Lookup form</h1>
+  <div class="container">
+  <center>
+    <h3>Let's check out some repos bruh! </h3>
+    <h3 id="time"></h3>
+
+<hr>
+    <div class="jumbotron">
+      <h3>Search your GitHub Username Here</h3>
+
+      <!-- form that the user will interact with -->
+      <form>
+        <label for="userName">Enter the username here: </label>
+        <input type="text" id="userName">
+        <button type="button" id="searchUser" class="btn btn-lg"> Search your repository</button>
+      </form>
+      <!-- ######## -->
+      <!-- username details and picture display -->
+      <div class="row">
+
+          <u><h2>Profile</h2></u>
+      <div class="showUser">
+        <ul id="userPic" class="">
+        </ul>
+
+        </div>
+    </div>
+
+    <hr>
+      <!-- ########## -->
+      <!-- where the repos will be displayed -->
+      <div class="row">
+      </u><h2>Repositories</h2></u>
+      <div id="showRepos">
+        <ul id="repoLink" class="list-unstyled">
+
+        </ul>
+      </div>
+    </div>
+
+
+      <!-- ########## -->
+    </div>
+    </center>
+  </div>
+
+</body>
+
+</html>
