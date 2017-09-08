@@ -1,13 +1,12 @@
-# GitHub-User-Lookup
-Project Title
+## Project Title
 
 GitHub-User-Lookup
 
-Description
+## Description
 
 This is a website in which users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories.
 
-Setup/Installation Requirements:
+## Setup/Installation Requirements:
 
 To locally run application do the following: In the terminal, navigate to your desktop and execute the following:-
 
@@ -18,18 +17,18 @@ To locally run application do the following: In the terminal, navigate to your d
 Open a new file and copy your API here:-
 -exports.apiKey = "Insert API Key"
 
-Built With/Technology
+## Built With/Technology
 
 HTML 
 JavaScript 
 Sass 
 Gulp
 
-Author
+## Author
 
 Philip Weru 
 
-License
+## License
 
 This project is licensed under the MIT License 
 
